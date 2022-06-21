@@ -1,0 +1,15 @@
+{
+    "name": "Getting Started Example",
+    "description": "What my extension do",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action" : {
+      "default_popup" : "popup.html",
+      "default_title" : "Open the popup"
+    },
+    "permissions": ["tabs", "activeTab", "storage", "scripting", "downloads"],
+    "background" : {},
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'; script-src-elem 'self' 'unsafe-inline' https://music.yandex.ru/;"
+    }
+  }

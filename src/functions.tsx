@@ -1,7 +1,7 @@
 
 
 console.log('FUNCTIONSSS FILE!!')
-
+// cambio
 
 export const getCurrentTab = async () => {
     const queryOptions = { active: true, lastFocusedWindow: true };
